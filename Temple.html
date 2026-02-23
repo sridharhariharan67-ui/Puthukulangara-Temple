@@ -2,70 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Putukulangara Bagavathi Temple | Kakkazhom</title>
+    <title>Puthukkulangara Bhagavathy Temple | Official Site</title>
     <style>
-        body { font-family: 'Georgia', serif; margin: 0; background-color: #fffaf0; color: #4a0404; }
-        header { background-color: #800000; color: #ffd700; padding: 2rem; text-align: center; border-bottom: 5px solid #ffd700; }
-        nav { background: #4a0404; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        .hero { padding: 50px 20px; text-align: center; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('temple-bg.jpg'); color: white; }
-        .content { max-width: 900px; margin: 30px auto; padding: 20px; line-height: 1.6; }
-        .vazhipadu-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        .vazhipadu-table th, td { border: 1px solid #800000; padding: 12px; text-align: left; }
-        .vazhipadu-table th { background-color: #800000; color: white; }
-        footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        :root {
+            --temple-red: #b33a20; /* From the temple base */
+            --temple-gold: #d4a017; /* Cresent/Pallival theme */
+            --temple-cream: #f4ecd8; /* Wall color */
+        }
+        body { font-family: 'Times New Roman', serif; margin: 0; background-color: var(--temple-cream); color: #333; line-height: 1.8; }
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('image_ab6ed2.jpg'); 
+            background-size: cover; background-position: center;
+            height: 80vh; display: flex; align-items: center; justify-content: center; color: white; text-align: center;
+        }
+        .section { max-width: 1000px; margin: auto; padding: 40px 20px; }
+        .card { background: white; padding: 30px; border-left: 5px solid var(--temple-red); box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h2 { color: var(--temple-red); border-bottom: 2px solid var(--temple-gold); display: inline-block; }
+        .footer { background: #222; color: #ccc; text-align: center; padding: 20px; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>പുതുകുളങ്ങര ഭഗവതി ക്ഷേത്രം</h1>
-    <h2>Putukulangara Bagavathi Temple, Kakkazhom</h2>
-</header>
-
-<nav>
-    <a href="#home">Home</a>
-    <a href="#history">History</a>
-    <a href="#vazhipadu">Vazhipadu</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<div class="content">
-    <section id="home">
-        <h3>Welcome to the Abode of Devi</h3>
-        <p>Located in the serene village of Kakkazhom, near Ambalapuzha, the Putukulangara Bagavathi Temple stands as a beacon of spiritual solace and ancient tradition. This sacred shrine is dedicated to Goddess Bagavathi, the mother of the universe.</p>
-    </section>
-
-    <hr>
-
-    <section id="vazhipadu">
-        <h3>Daily Vazhipadu (Offerings)</h3>
-        <table class="vazhipadu-table">
-            <tr>
-                <th>Offering Name</th>
-                <th>Purpose</th>
-            </tr>
-            <tr>
-                <td>Pushpanjali</td>
-                <td>General wellbeing and blessings.</td>
-            </tr>
-            <tr>
-                <td>Neyvilakku</td>
-                <td>For removing obstacles in life.</td>
-            </tr>
-            <tr>
-                <td>Swayamvara Pushpanjali</td>
-                <td>For marriage-related blessings.</td>
-            </tr>
-        </table>
-    </section>
+<div class="hero">
+    <div>
+        <h1 style="font-size: 3rem; margin: 0;">Puthukkulangara Bhagavathy Temple</h1>
+        <p style="font-size: 1.5rem;">Kakkazhom, Ambalappuzha</p>
+    </div>
 </div>
 
-<footer>
-    <p>Kakkazhom, Ambalapuzha, Alappuzha, Kerala | Phone: [Insert Phone Number]</p>
-    <p>&copy; 2026 Putukulangara Bagavathi Temple Trust</p>
-</footer>
+<div class="section">
+    <div class="card">
+        <h2>The Divine Form</h2>
+        <p>A decades-old sanctuary of <strong>Bhadrakali (Adiparasakthy)</strong>, the Devi is worshipped here in her <strong>Chathur Bahu</strong> form. She holds the sacred <strong>Pallival</strong>—the crescent-shaped sword—symbolizing her role as the protector of her subjects. In moments of crisis, the Devi is the ultimate refuge, known for wiping away the sorrows of those who call upon her.</p>
+    </div>
+
+    <div class="card">
+        <h2>Meena Bharani & Pongala</h2>
+        <p>The spirit of Kakkazhom awakens during the <strong>Meena Bharani Mahotsavam</strong>. The highlight of this festival is the <strong>Pongala</strong>, an offering of devotion that fills the temple premises with prayer and sacred fire.</p>
+    </div>
+
+    <div class="card">
+        <h2>Upadevathas</h2>
+        <p>The temple complex also houses the sacred presence of <strong>Vinayaka, Nagarjavu, Nagayakshi,</strong> and <strong>Yakshi</strong>, completing the spiritual landscape of this ancient shrine.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Administered by the <strong>Travancore Devaswom Board</strong></p>
+    <p>Kakkazhom, Ambalappuzha, Alappuzha, Kerala</p>
+</div>
 
 </body>
 </html>
